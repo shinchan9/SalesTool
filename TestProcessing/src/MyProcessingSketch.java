@@ -14,7 +14,7 @@ public class MyProcessingSketch extends PApplet {
 	Stripe[] stripes = new Stripe[50];
 
 	public void setup() {
-		size(1366,768);
+		size(200,200);
 		// Initialize all "stripes"
 		for (int i = 0; i < stripes.length; i++) {
 			stripes[i] = new Stripe(this);
